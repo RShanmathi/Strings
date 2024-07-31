@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        String str=s.nextLine();
+        char c[]=str.toCharArray();
+        for(int i=0;i < c.length;i++){
+            if(c[i]>='a' && c[i]<='z'){
+                c[i]=(char)(c[i]-32);
+            }
+            else{
+                c[i]=(char)(c[i]+32);
+                }}
+            String st=new String(c);            
+            System.out.println("Case Cascade Magic Unleashed! The "+st+" transformation is complete.");
+        }
+        }
